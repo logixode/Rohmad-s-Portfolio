@@ -8,10 +8,14 @@
 
         <div class="flex mt-5">
           <div class="w-1/5 mr-4">
-              <input type="submit" value="Hire Me!" class="block bg-green-500 hover:bg-green-600 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-10 py-3">
+              <a href="/#contact" v-scroll-to="'#about'">
+                <input type="submit" value="Hire Me!" class="block bg-green-500 hover:bg-green-600 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-10 py-3">
+              </a>
           </div>
           <div class="mt-1/5">
-              <input type="submit" value="Get CV" class="block bg-transparent hover:bg-green-500 text-green-500 text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer border border-green-500 hover:border-transparent hover:text-white px-10 py-3">
+              <a href="../../static/resume.pdf">
+                <input type="submit" value="Get CV" class="block bg-transparent hover:bg-green-500 text-green-500 text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer border border-green-500 hover:border-transparent hover:text-white px-10 py-3">
+              </a>
           </div>
         </div>
       </div>
@@ -71,9 +75,9 @@
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
 
-        <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
-          <div><g-image src="../../static/avatar.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.</div>
+        <div class="items-center mb-16">
+          <div><g-image src="../../static/profile.jpg" alt="avatar" class="w-1/4 h-1/4 mx-auto rounded-full mb-8 lg:mb-0" /></div>
+          <div class="text-lg sm:text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.</div>
         </div>
 
         <div class="responsive-container">

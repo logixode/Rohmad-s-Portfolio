@@ -3,7 +3,9 @@
     <header class="border-t-14 border-green-500">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
-          <g-link v-if="theme === 'theme-light' && $route.path === '/'" to="/"><g-image src="../../static/logo.png" class="w-20" alt="logo" /></g-link>
+          <g-link v-if="theme === 'theme-dark' && $route.path === '/'" to="/"><g-image src="../../static/logo-night.png" class="w-20" alt="logo" /></g-link>
+          <g-link v-else-if="theme === 'theme-light' && $route.path === '/'" to="/"><g-image src="../../static/logo.png" class="w-20" alt="logo" /></g-link>
+          <g-link v-else-if="theme === 'theme-dark' && $route.path !== '/'" to="/"><g-image src="../../static/logo-night.png" class="w-12" alt="logo" /></g-link>
           <g-link v-else to="/"><g-image src="../../static/logo.png" class="w-12" alt="logo" /></g-link>
         </div>
         <div class="block lg:hidden">
