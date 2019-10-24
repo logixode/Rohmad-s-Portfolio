@@ -1,16 +1,26 @@
 <template>
   <Layout>
-    <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
+    <div class="hero container mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="leading-tight">Gridsome Portfolio Starter</div>
-        <div class="text-green-700 leading-tight">Powered by Vue.js &amp; Tailwind v1</div>
+        <div class="leading-tight text-gray-700">Hey there...</div>
+        <div class="text-6xl">I am<span class="text-green-500"> Rohmad Kurniadi</span></div>
+        <div class="leading-tight text-2xl text-gray-600">Frontend Developer - Software Engineer - Freelancer</div>
+
+        <div class="flex mt-5">
+          <div class="w-1/5 mr-4">
+              <input type="submit" value="Hire Me!" class="block bg-green-500 hover:bg-green-600 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-10 py-3">
+          </div>
+          <div class="mt-1/5">
+              <input type="submit" value="Get CV" class="block bg-transparent hover:bg-green-500 text-green-500 text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer border border-green-500 hover:border-transparent hover:text-white px-10 py-3">
+          </div>
+        </div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
+        <g-image src="../../static/profile.jpg" alt="hero" class="mx-auto w-64 rounded-full profile-logo sm:mx-0" />
       </div>
     </div> <!-- end hero -->
 
-    <div class="container-inner mx-auto">
+    <div class="container mx-auto">
       <p class="text-lg sm:text-xl">This gridsome theme was forked from my <a href="https://andremadarang.com">personal website</a>. I added more features and decided to release it as an open source project. Check it out on <a href="https://github.com/drehimself/gridsome-portfolio-starter">GitHub</a> or check out the <a href="https://www.youtube.com/watch?v=uHo6o1TNQeE">screencast I did</a>. Feel free to use it for your own site or projects! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellat. Dolores iure, quas perspiciatis rerum quaerat atque eum repellat autem.</p>
 
       <div class="flex justify-between items-center py-6">
@@ -24,7 +34,7 @@
     </div>
 
     <div class="overflow-x-hidden">
-      <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
+      <div class="projects container mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
         <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
 
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
@@ -33,29 +43,29 @@
 
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
-            <div>Project One</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Transaction Processing System of Maharrani Resto</div>
+            <div class="text-lg text-gray-600">Vue.js, Laravel, &amp; Node.js</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Two</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Eloise.id Selling Information System</div>
+            <div class="text-lg text-gray-600">PHP &amp; PHPSpreadSheets</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Three</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>TI Poliwangi Gen-12</div>
+            <div class="text-lg text-gray-600">Vue.js, Bootstrap, JQuery, &amp; parallax.js</div>
           </li>
-          <li class="checkmark mb-6">
+          <!-- <li class="checkmark mb-6">
             <div>Project Four</div>
             <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
+          </li> -->
 
         </ul>
       </div> <!-- end projects -->
     </div>
 
-    <div class="overflow-x-hidden border-gray-200 border-b">
-      <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
-        <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
+    <div class="overflow-x-hidden border-gray-200 border-b" id="about">
+      <div class="get-to-know-me container text-center mx-auto text-xl pb-16 relative">
+        <h2 class="font-bold text-2xl mb-6 uppercase">Get to know me</h2>
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -72,10 +82,10 @@
       </div> <!-- end get-to-know me -->
     </div>
 
-    <div class="overflow-x-hidden">
+    <div class="overflow-x-hidden" id="contact">
       <div class="contact-me bg-background-secondary pt-16">
         <div class="container-inner mx-auto text-xl pb-4 relative">
-          <h2 class="font-bold mb-6" id="contact">Contact me:</h2>
+          <h2 class="font-bold mb-6">Contact me:</h2>
 
           <div class="absolute right-0 top-0" style="transform: translate(100%) rotate(180deg)">
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -122,10 +132,10 @@
 
     <div class="newsletter bg-background-tertiary">
       <div class="container-inner mx-auto py-16 pb-8 text-center textl-xl">
-        <h2 class="text-2xl font-bold mb-8">Join my Newsletter</h2>
+        <h2 class="text-2xl font-bold mb-8 uppercase">wanna get some interesting update from me?</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-          <p class="mb-8 text-lg sm:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, voluptatum. Quam, deleniti nulla.</p>
+          <!-- <p class="mb-8 text-lg sm:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, voluptatum. Quam, deleniti nulla.</p> -->
 
           <form action="#">
             <div class="flex flex-col sm:flex-row">

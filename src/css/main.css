@@ -114,3 +114,9 @@ nav .active {
   height: 100%;
   border: 0;
 }
+
+.profile-logo {
+    -webkit-box-shadow: 19px 12px 0px 2px rgba(44,208,132,1);
+    -moz-box-shadow: 19px 12px 0px 2px rgba(44,208,132,1);
+    box-shadow: 19px 12px 0px 2px rgba(44,208,132,1);
+}
