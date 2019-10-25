@@ -3,24 +3,24 @@
     <div class="hero container mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight text-gray-700">Hey there...</div>
-        <div class="text-6xl">I am<span class="text-green-500"> Rohmad Kurniadi</span></div>
-        <div class="leading-tight text-2xl text-gray-600">Frontend Developer - Software Engineer - Freelancer</div>
+        <div class="text-4xl md:text-6xl">I am<span class="text-green-500"> Rohmad Kurniadi</span></div>
+        <div class="leading-tight text-xl sm:text-2xl text-gray-600">Frontend Developer - Software Engineer - Freelancer</div>
 
-        <div class="flex mt-5">
-          <div class="w-1/5 mr-4">
+        <div class="flex mt-5 mx-auto sm:mx-0 xs:w-4/4 w-3/5">
+          <div class="mr-4">
               <a href="/#contact" v-scroll-to="'#about'">
-                <input type="submit" value="Hire Me!" class="block bg-green-500 hover:bg-green-600 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-10 py-3">
+                <input type="submit" value="Hire Me!" class="block shadow-lg hover:shadow bg-green-500 hover:bg-green-600 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-10 py-3">
               </a>
           </div>
-          <div class="mt-1/5">
+          <div>
               <a href="../../static/resume.pdf">
-                <input type="submit" value="Get CV" class="block bg-transparent hover:bg-green-500 text-green-500 text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer border border-green-500 hover:border-transparent hover:text-white px-10 py-3">
+                <input type="submit" value="Get CV" class="block bg-transparent hover:bg-green-500 hover:shadow-lg text-green-500 text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer border border-green-500 hover:border-transparent hover:text-white px-10 py-3">
               </a>
           </div>
         </div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <g-image src="../../static/profile.jpg" alt="hero" class="mx-auto w-64 rounded-full profile-logo sm:mx-0" />
+        <g-image src="../../static/profile.jpg" alt="hero" class="mx-auto w-2/5 rounded-full profile-logo sm:mx-0" />
       </div>
     </div> <!-- end hero -->
 
