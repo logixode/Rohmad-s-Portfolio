@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <g-image src="../../static/profile.jpg" alt="hero" class="mx-auto w-2/5 rounded-full profile-logo sm:mx-0" />
+        <g-image src="../../static/profile.jpg" alt="hero" class="mx-auto w-64 rounded-full profile-logo sm:mx-0" />
       </div>
     </div> <!-- end hero -->
 
