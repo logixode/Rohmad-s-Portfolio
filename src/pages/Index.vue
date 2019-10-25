@@ -16,7 +16,7 @@
               </a> -->
           </div>
           <div>
-              <a href="assets/static/resume.pdf">
+              <a href="assets/static/static/resume.pdf">
                 <input type="submit" value="Get CV" class="block bg-transparent hover:bg-green-500 hover:shadow-lg text-green-500 text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer border border-green-500 hover:border-transparent hover:text-white px-10 py-3">
               </a>
           </div>
