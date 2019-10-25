@@ -120,3 +120,8 @@ nav .active {
     -moz-box-shadow: 19px 12px 0px 2px rgba(44,208,132,1);
     box-shadow: 19px 12px 0px 2px rgba(44,208,132,1);
 }
+
+.dot {
+  margin-top: -5px;
+  transform: scale(2.7) rotate(180deg);
+}
