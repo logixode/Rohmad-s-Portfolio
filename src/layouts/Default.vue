@@ -115,7 +115,7 @@
           <form action="#">
             <div class="flex flex-col sm:flex-row">
               <input type="email" name="email" placeholder="Your email address" class="flex-1 bg-background-form rounded sm:rounded-r-none px-4 py-2 sm:py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10" required>
-              <button data-element="submit" class="flex-2 sm:w-40 uppercase bg-green-700 text-white rounded sm:rounded-l-none text-lg py-2 sm:py-3 px-8 tracking-wide shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 z-10 w-full mt-4 sm:mt-0">
+              <button data-element="submit" class="flex-2 sm:w-40 uppercase bg-green-500 text-white rounded sm:rounded-l-none text-lg py-2 sm:py-3 px-8 tracking-wide shadow focus:outline-none hover:bg-green-600 focus:bg-green-700 z-10 w-full mt-4 sm:mt-0">
                 <span class="sm:text-base text-sm">Subscribe</span>
               </button>
             </div>
@@ -125,9 +125,9 @@
       </div>
 
 
-      <footer class="bg-green-700 fixed w-full bottom-0 text-white">
+      <footer class="bg-green-700 absolute w-full bottom-0 text-white">
         <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
-          <div class="sm:mb-8 hidden sm`:block lg:mb-0">
+          <div class="sm:mb-8 hidden sm:block lg:mb-0">
             <div>Copyright 2019. All rights reserved.</div>
             <div>
               <a href="rss.xml" class="text-white hover:text-gray-400 font-normal">RSS Feed</a> |

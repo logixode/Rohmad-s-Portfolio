@@ -16,7 +16,7 @@
               </a> -->
           </div>
           <div>
-              <a href="assets/static/static/resume.pdf">
+              <a href="https://doc-08-74-docs.googleusercontent.com/docs/securesc/af04ic30cj0tbpeh1q1mga8c5vhok2ei/ol63lf3giimk7vk7l1mnr6g8qjd9vls9/1572012000000/09932761388609059876/09932761388609059876/1rC2S4qInq-QIST8oWC-mi62Um2jIX25b?e=download&nonce=14l36serlr43g&user=09932761388609059876&hash=fpc9ohg7t6m8bcnqdcqf0o8vkt88m5s8">
                 <input type="submit" value="Get CV" class="block bg-transparent hover:bg-green-500 hover:shadow-lg text-green-500 text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer border border-green-500 hover:border-transparent hover:text-white px-10 py-3">
               </a>
           </div>
@@ -83,9 +83,9 @@
           <div class="text-lg sm:text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.</div>
         </div>
 
-        <div class="responsive-container">
+        <!-- <div class="responsive-container">
           <iframe class="responsive-iframe w-full h-full top-0 left-0 border-0" src="https://www.youtube.com/embed/uHo6o1TNQeE" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        </div> -->
       </div> <!-- end get-to-know me -->
     </div>
 
