@@ -203,7 +203,7 @@ export default {
     return {
       isOpen: false,
       theme: '',
-      maintenance: true
+      maintenance: false
     }
   },
   methods: {
