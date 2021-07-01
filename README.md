@@ -1,37 +1,69 @@
-# Rohmad's Portfolio Website
+# portfolio-UTS
 
-## Portfolio site here
-[https://rohmadkur.netlify.com](https://rohmadkur.netlify.com)
+## Build Setup
 
-## Features
+```bash
+# install dependencies
+$ yarn install
 
-- Clean and minimal design
-- [Tailwind CSS v1](https://tailwindcss.com) (with PurgeCSS)
-- Scroll to sections using [vue-scrollto](https://github.com/rigor789/vue-scrollto)
-- Blog with markdown content for posts
-- Documentation type that shows how to use Vue components in Markdown (click Docs)
-- Theme Switcher with Dark Mode
-- Search posts with [Fuse.js](https://fusejs.io) and [vue-fuse](https://github.com/shayneo/vue-fuse)
-- Tags for posts
-- Basic pagination
-- Syntax highlighting with [Shiki](https://shiki.matsu.io) (using [this gridsome plugin](https://gridsome.org/plugins/gridsome-plugin-remark-shiki))
-- 404 Page
-- RSS Feed
-- Sitemap in XML
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-## Installation
+# build for production and launch server
+$ yarn build
+$ yarn start
 
-1. Install Gridsome CLI tool if you don't have it: `npm install --global @gridsome/cli`
-1. Clone the repo: `git clone https://github.com/drehimself/gridsome-portfolio-starter.git`
-1. `cd gridsome-portfolio-starter`
-1. `npm install`
-1. `gridsome develop` to start a local dev server at `http://localhost:8080`
+# generate static project
+$ yarn generate
+```
 
-## Notes
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
- - Illustrations from [unDraw](https://undraw.co)
- - Search is based on [Fuse.js](https://fusejs.io) and [vue-fuse](https://github.com/shayneo/vue-fuse). It only searches the title and summary of posts for now. Some tweaking may be necessary to get it to search to your liking. Check out the fuse documentation for search settings. A `search.json` index file is generated at build time. This happens in `gridsome.server.js`.
- - Check out these other Gridsome Starters where I got some ideas from:
-    - [Gridsome Starter Blog](https://github.com/gridsome/gridsome-starter-blog)
-    - [Gridsome Starter Bleda](https://github.com/cossssmin/gridsome-starter-bleda)
-    - [Jigsaw Starter Blog](https://jigsaw.tighten.co/docs/starter-templates/) 
+## Special Directories
+
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+
+### `assets`
+
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+
+### `components`
+
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+
+### `layouts`
+
+Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+
+
+### `pages`
+
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+
+### `plugins`
+
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+
+### `static`
+
+This directory contains your static files. Each file inside this directory is mapped to `/`.
+
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+
+### `store`
+
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
