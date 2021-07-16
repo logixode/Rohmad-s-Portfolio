@@ -1,5 +1,5 @@
 <template>
-  <div class="main-container h-screen">
+  <div class="main-container h-screen -mt-20">
     <div class="flex h-full items-center">
       <div class="flex-1 relative -z-2">
         <div class="border-b-4 border-green-400 inline-block mb-5">
