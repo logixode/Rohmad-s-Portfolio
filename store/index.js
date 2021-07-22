@@ -13,3 +13,5 @@ export const mutations = {
     document.documentElement.className = dark ? "dark" : "";
   }
 };
+
+export const strict = false;

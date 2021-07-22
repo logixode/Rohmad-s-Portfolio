@@ -40,18 +40,6 @@ export default {
     renderer.setSize(targetElement.offsetWidth, targetElement.offsetHeight);
     renderer.setPixelRatio(devicePixelRatio);
 
-    // scene.background = new THREE.Color(0x00ddaa);
-
-    // window.addEventListener(
-    //   "resize",
-    //   function () {
-    //     cam.aspect = window.innerWidth / window.innerHeight;
-    //     cam.updateProjectionMatrix();
-    //     renderer.setSize(window.innerWidth, window.innerHeight);
-    //   },
-    //   false
-    // );
-
     sceneElement.appendChild(renderer.domElement);
 
     // Instantiate a loader

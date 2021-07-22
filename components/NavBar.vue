@@ -14,7 +14,19 @@
         flex
       "
     >
-      <div class="main-container w-full my-auto">
+      <div
+        class="
+          main-container
+          w-full
+          border-b-4 border-green-400
+          md:border-none
+          dark:bg-gray-bg
+          bg-white
+          my-0
+          md:my-auto
+          self-center
+        "
+      >
         <div class="relative flex items-center h-16 justify-center">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Hamburger Menu -->
@@ -27,13 +39,10 @@
                 p-2
                 rounded-md
                 text-gray-400
-                hover:text-white
-                hover:bg-gray-700
                 focus:outline-none
                 focus:ring-2 focus:ring-inset focus:ring-white
               "
-              aria-controls="mobile-menu"
-              aria-expanded="false"
+              @click="showNavList"
             >
               <span class="sr-only">Open main menu</span>
               <!--
@@ -169,20 +178,20 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Mobile menu, show/hide based on menu state. -->
-      <div class="sm:hidden border-b-4 border-green-400" id="mobile-menu">
-        <div class="px-2 pt-2 pb-3 space-y-1">
-          <!-- Current: "bg-gray-900 text-white", Default: " hover:bg-gray-700 hover:text-white" -->
-          <nuxt-link
-            class="block px-3 py-2 rounded-md text-base font-medium"
-            v-for="(nav, i) in navs"
-            :key="i"
-            :to="nav.path"
-          >
-            {{ nav.menu }}
-          </nuxt-link>
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu" v-if="navList">
+          <div class="pt-2 pb-3 space-y-1" @click="showNavList">
+            <!-- Current: "bg-gray-900 text-white", Default: " hover:bg-gray-700 hover:text-white" -->
+            <nuxt-link
+              class="block px-3 py-2 rounded-md text-base font-medium"
+              v-for="(nav, i) in navs"
+              :key="i"
+              :to="nav.path"
+            >
+              {{ nav.menu }}
+            </nuxt-link>
+          </div>
         </div>
       </div>
     </nav>
@@ -215,6 +224,7 @@ export default {
         path: "/#contact",
       },
     ],
+    navList: false,
   }),
   mounted() {
     console.log(this.$route);
@@ -230,6 +240,11 @@ export default {
       get() {
         return this.$store.state.dark;
       },
+    },
+  },
+  methods: {
+    showNavList() {
+      this.navList = !this.navList;
     },
   },
 };

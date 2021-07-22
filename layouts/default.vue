@@ -1,7 +1,9 @@
 <template>
   <div class="min-h-screen h-screen">
-    <AppBar />
+    <NavBar />
+    <ScrollToTop /><!-- canvas -->
     <Nuxt />
+    <Footer />
   </div>
 </template>
 

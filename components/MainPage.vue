@@ -37,7 +37,7 @@
         </a>
       </div>
 
-      <div class="relative z-3">
+      <div class="relative z-3 hidden md:block">
         <div class="mr-52 bg-white dark:bg-gray-bg inline-block p-6 shadow-2xl">
           <div class="w-56">
             <img src="/foto.jpg" alt="" class="h-72 rounded-xl object-cover" />
@@ -48,7 +48,7 @@
 
     <div class="absolute b-0 left-0"></div>
 
-    <div class="h-full absolute bottom-0 right-0 flex z-2">
+    <div class="h-full absolute bottom-0 right-0 hidden md:flex z-2">
       <img src="/bg-foto.jpg" alt="" class="h-full relative left-16" />
       <div class="h-full w-16 bg-green-400 opacity-60"></div>
       <div class="h-full w-16 bg-green-400"></div>

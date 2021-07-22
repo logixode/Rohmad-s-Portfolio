@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="sosmed">
     <div class="my-5" v-for="(data, i) in sosmed" :key="i">
       <a :href="data.link" target="_blank">
         <font-awesome-icon :icon="['fab', data.icon]" class="sosmed-icon" />

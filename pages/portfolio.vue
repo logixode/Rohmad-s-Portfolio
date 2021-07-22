@@ -1,7 +1,7 @@
 <template>
   <div class="h-full flex -m-20">
     <div class="object-render m-auto">
-      <Portfolio />
+      <!-- <Portfolio /> -->
     </div>
   </div>
 </template>
