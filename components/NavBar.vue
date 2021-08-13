@@ -180,7 +180,7 @@
         </div>
 
         <!-- Mobile menu, show/hide based on menu state. -->
-        <div class="sm:hidden" id="mobile-menu" v-if="navList">
+        <div class="sm:hidden" id="mobile-menu" v-show="navList">
           <div class="pt-2 pb-3 space-y-1" @click="showNavList">
             <!-- Current: "bg-gray-900 text-white", Default: " hover:bg-gray-700 hover:text-white" -->
             <nuxt-link
@@ -217,7 +217,7 @@ export default {
       },
       {
         menu: "Portfolio",
-        path: "/portfolio",
+        path: "/#portfolio",
       },
       {
         menu: "Contact",
