@@ -8,7 +8,7 @@
     </div>
     <div class="relative z-1 bg-white dark:bg-gray-bg" id="profile">
       <Skills />
-      <div class="main-container pb-48" id="portfolio">
+      <div class="main-container pt-28 pb-48" id="portfolio">
         <div class="text-center">
           <h2 class="text-4xl">Portfolio</h2>
           <small class="text-gray-600 dark:text-gray-400"> My last work </small>
