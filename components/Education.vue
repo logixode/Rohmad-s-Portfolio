@@ -35,29 +35,29 @@ export default {
   data: () => ({
     schools: [
       {
-        year: "2019 - Present",
-        name: "Politeknik Negeri Banyuwangi",
-        grade: "D3 Teknik Informatika",
-        province: "Jawa Timur",
-      },
-      {
         year: "2016 - 2019",
         name: 'SMK "SORE" Tulungagung',
         grade: "Teknik Komputer & Jaringan (TKJ)",
         province: "Jawa Timur",
       },
       {
-        year: "2013 - 2016",
-        name: "SMPN 2 Kauman",
-        grade: "Sekolah Menengah Pertama",
+        year: "2019 - 2022(expected)",
+        name: "Politeknik Negeri Banyuwangi",
+        grade: "D3 Teknik Informatika",
         province: "Jawa Timur",
       },
-      {
-        year: "2007 - 2013",
-        name: "MI Al-Muhajirin Denpasar",
-        grade: "Sekolah Dasar",
-        province: "Bali",
-      },
+      // {
+      //   year: "2013 - 2016",
+      //   name: "SMPN 2 Kauman",
+      //   grade: "Sekolah Menengah Pertama",
+      //   province: "Jawa Timur",
+      // },
+      // {
+      //   year: "2007 - 2013",
+      //   name: "MI Al-Muhajirin Denpasar",
+      //   grade: "Sekolah Dasar",
+      //   province: "Bali",
+      // },
     ],
   }),
   computed: {
