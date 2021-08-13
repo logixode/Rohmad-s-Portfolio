@@ -41,7 +41,7 @@ export default {
         province: "Jawa Timur",
       },
       {
-        year: "2019 - 2022(expected)",
+        year: "2019 - 2022 (expected)",
         name: "Politeknik Negeri Banyuwangi",
         grade: "D3 Teknik Informatika",
         province: "Jawa Timur",
