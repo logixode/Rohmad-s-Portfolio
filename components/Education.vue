@@ -35,15 +35,15 @@ export default {
   data: () => ({
     schools: [
       {
-        year: "2016 - 2019",
-        name: 'SMK "SORE" Tulungagung',
-        grade: "Teknik Komputer & Jaringan (TKJ)",
-        province: "Jawa Timur",
-      },
-      {
         year: "2019 - 2022 (expected)",
         name: "Politeknik Negeri Banyuwangi",
         grade: "D3 Teknik Informatika",
+        province: "Jawa Timur",
+      },
+      {
+        year: "2016 - 2019",
+        name: 'SMK "SORE" Tulungagung',
+        grade: "Teknik Komputer & Jaringan (TKJ)",
         province: "Jawa Timur",
       },
       // {
