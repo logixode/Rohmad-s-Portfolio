@@ -1,7 +1,7 @@
 <template>
   <div class="sosmed">
     <div class="my-5" v-for="(data, i) in sosmed" :key="i">
-      <a :href="data.link" target="_blank">
+      <a :href="data.link" target="_blank" rel="noopener noreferer">
         <font-awesome-icon :icon="['fab', data.icon]" class="sosmed-icon" />
       </a>
     </div>
