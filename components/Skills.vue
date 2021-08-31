@@ -10,6 +10,7 @@
         :key="i"
         :href="skill.link"
         target="_blank"
+        rel="noreferrer"
       >
         <img
           :src="
