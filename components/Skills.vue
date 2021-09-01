@@ -15,7 +15,7 @@
         <img
           :src="
             skill.alt == 'Nodejs' && isDark
-              ? '/img/skills/nuxt-dark.svg'
+              ? '/img/skills/node-dark.svg'
               : skill.img
           "
           :alt="skill.alt"
