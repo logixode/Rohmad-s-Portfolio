@@ -54,7 +54,7 @@
               </a>
             </div>
           </div>
-          <nuxt-link
+          <!-- <nuxt-link
             class="
               text-xl text-green-500
               dark:text-green-400
@@ -65,7 +65,7 @@
             to="/portfolio"
           >
             See All Projects...
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
     </div>
